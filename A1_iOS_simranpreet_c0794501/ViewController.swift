@@ -77,22 +77,26 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         {
         annotation.title = "A"
         annotation.coordinate = coordination
+            places.append(PLACES(title:annotation.title, coordinate:annotation.coordinate))
         map.addAnnotation(annotation)
         }
         else if x == 2
         {
         annotation.title = "B"
         annotation.coordinate = coordination
+            places.append(PLACES(title:annotation.title, coordinate:annotation.coordinate))
         map.addAnnotation(annotation)
         }
         else if x == 3
         {
         annotation.title = "C"
         annotation.coordinate = coordination
+            places.append(PLACES(title:annotation.title, coordinate:annotation.coordinate))
         map.addAnnotation(annotation)
         }
         else if x == 4
         {
+            places.removeAll()
             map.removeAnnotation(annotation)
         }
         
