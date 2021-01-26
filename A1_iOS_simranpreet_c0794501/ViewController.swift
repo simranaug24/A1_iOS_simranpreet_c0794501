@@ -13,7 +13,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     
     @IBOutlet weak var map: MKMapView!
 
-    var places = [Place]()
+    var places = [PLACES]()
     var x = 0
     var locationManager = CLLocationManager() // variable of location manager
     
@@ -42,6 +42,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
        
     }
     
+    
+    //POLYGON METHOD
     func addPolygon()
     {
         
@@ -50,12 +52,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         map.addOverlay(polygon)
     }
     
-    func addAnnotationForPlaces()
-    {
-        map.addAnnotation(places)
-        
-        let overlays = places.map{}
-    }
+    
+    
+    // DOUBLE TAP GESTURE
     func addDoubleTapGesture ()
     {
         let doubleTapGesture = UITapGestureRecognizer(target: self, action: #selector(PIN))
@@ -80,19 +79,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         annotation.coordinate = coordination
         map.addAnnotation(annotation)
         }
-        if x == 2
+        else if x == 2
         {
         annotation.title = "B"
         annotation.coordinate = coordination
         map.addAnnotation(annotation)
         }
-        if x == 3
+        else if x == 3
         {
         annotation.title = "C"
         annotation.coordinate = coordination
         map.addAnnotation(annotation)
         }
-        if x == 4
+        else if x == 4
         {
             map.removeAnnotation(annotation)
         }
