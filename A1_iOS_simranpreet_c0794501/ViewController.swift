@@ -38,7 +38,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         addDoubleTapGesture()
         
         
-        addPolygon ()
+     //   addPolygon ()
        
     }
     
@@ -93,11 +93,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         annotation.coordinate = coordination
             places.append(PLACES(title:annotation.title, coordinate:annotation.coordinate))
         map.addAnnotation(annotation)
+            addPolygon()
         }
         else if x == 4
         {
+            
             places.removeAll()
             map.removeAnnotation(annotation)
+            x==0
         }
         
     }
