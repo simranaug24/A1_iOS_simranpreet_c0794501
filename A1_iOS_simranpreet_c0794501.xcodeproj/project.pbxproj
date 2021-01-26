@@ -15,6 +15,7 @@
 		5B92E15D25C03A41003D2A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B92E15B25C03A41003D2A13 /* LaunchScreen.storyboard */; };
 		5B92E16825C03A41003D2A13 /* A1_iOS_simranpreet_c0794501Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92E16725C03A41003D2A13 /* A1_iOS_simranpreet_c0794501Tests.swift */; };
 		5B92E17325C03A41003D2A13 /* A1_iOS_simranpreet_c0794501UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92E17225C03A41003D2A13 /* A1_iOS_simranpreet_c0794501UITests.swift */; };
+		5B92E18425C05649003D2A13 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92E18325C05649003D2A13 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5B92E16E25C03A41003D2A13 /* A1_iOS_simranpreet_c0794501UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A1_iOS_simranpreet_c0794501UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B92E17225C03A41003D2A13 /* A1_iOS_simranpreet_c0794501UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_iOS_simranpreet_c0794501UITests.swift; sourceTree = "<group>"; };
 		5B92E17425C03A41003D2A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B92E18325C05649003D2A13 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ../../../Desktop/Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5B92E15025C03A3E003D2A13 /* AppDelegate.swift */,
 				5B92E15225C03A3E003D2A13 /* SceneDelegate.swift */,
 				5B92E15425C03A3E003D2A13 /* ViewController.swift */,
+				5B92E18325C05649003D2A13 /* Place.swift */,
 				5B92E15625C03A3E003D2A13 /* Main.storyboard */,
 				5B92E15925C03A41003D2A13 /* Assets.xcassets */,
 				5B92E15B25C03A41003D2A13 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				5B92E15525C03A3E003D2A13 /* ViewController.swift in Sources */,
 				5B92E15125C03A3E003D2A13 /* AppDelegate.swift in Sources */,
 				5B92E15325C03A3E003D2A13 /* SceneDelegate.swift in Sources */,
+				5B92E18425C05649003D2A13 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
