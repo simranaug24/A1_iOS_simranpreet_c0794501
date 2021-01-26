@@ -24,8 +24,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     var locationManager = CLLocationManager() // variable of location manager
     
     var destination = CLLocationCoordinate2D()
-    
-    
+    var a = CLLocation()
+    var b = CLLocation()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -48,6 +48,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         
         
         addDoubleTapGesture()
+        
+     //   let distance = aName.distance(from: bName)/1000
+        
+        
         
         
      //   addPolygon ()
